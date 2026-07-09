@@ -1,0 +1,902 @@
+/* ==========================================
+   Secure Retail Product Catalogue System
+   Shared Stylesheet
+   Sprint 3
+========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ===============================
+   GENERAL
+================================ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#f8f9fa;
+
+    color:#333;
+
+    line-height:1.7;
+
+}
+
+section{
+
+    padding:70px 0;
+
+}
+
+img{
+
+    max-width:100%;
+
+}
+
+/* ===============================
+   NAVBAR
+================================ */
+
+.navbar{
+
+    background:#111 !important;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.2);
+
+    padding:15px 0;
+
+}
+
+.navbar-brand{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#fff !important;
+
+}
+
+.nav-link{
+
+    color:white !important;
+
+    margin-left:15px;
+
+    transition:.3s;
+
+    font-weight:500;
+
+}
+
+.nav-link:hover{
+
+    color:#0d6efd !important;
+
+}
+
+/* ===============================
+   HERO
+================================ */
+
+.hero{
+
+background:
+
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+
+url("https://images.unsplash.com/photo-1556740749-40422ad1b108?auto=format&fit=crop&w=1800&q=80");
+
+background-size:cover;
+
+background-position:center;
+
+min-height:90vh;
+
+display:flex;
+
+align-items:center;
+
+color:white;
+
+}
+
+.hero h1{
+
+font-size:60px;
+
+font-weight:700;
+
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+margin-bottom:30px;
+
+max-width:600px;
+
+}
+
+/* ===============================
+   BUTTONS
+================================ */
+
+.btn{
+
+padding:12px 30px;
+
+border-radius:30px;
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.btn-primary{
+
+background:#0d6efd;
+
+border:none;
+
+}
+
+.btn-primary:hover{
+
+transform:translateY(-3px);
+
+box-shadow:0 10px 20px rgba(0,0,0,.2);
+
+}
+
+.btn-outline-light:hover{
+
+color:#000;
+
+}
+
+/* ===============================
+   TITLES
+================================ */
+
+h2{
+
+font-weight:700;
+
+margin-bottom:20px;
+
+}
+
+.display-3{
+
+font-weight:800;
+
+}
+
+/* ===============================
+   PROJECT OVERVIEW
+================================ */
+
+.overview-box{
+
+background:white;
+
+padding:30px;
+
+border-radius:15px;
+
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.overview-box ul{
+
+padding-left:20px;
+
+}
+
+.overview-box li{
+
+margin-bottom:12px;
+
+}
+
+/* ===============================
+   PRODUCT CARDS
+================================ */
+
+.card{
+
+border:none;
+
+border-radius:15px;
+
+overflow:hidden;
+
+transition:.35s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 20px 40px rgba(0,0,0,.15);
+
+}
+
+.card-img-top{
+
+height:240px;
+
+object-fit:cover;
+
+}
+
+.card-body{
+
+padding:25px;
+
+}
+
+.card-title{
+
+font-weight:700;
+
+}
+
+.card h4{
+
+font-weight:700;
+
+}
+
+.text-primary{
+
+font-weight:700;
+
+}
+
+/* ===============================
+   WHY CHOOSE US
+================================ */
+
+.bg-light{
+
+background:#f8f9fa !important;
+
+}
+
+.bg-light .card{
+
+height:100%;
+
+text-align:center;
+
+padding:15px;
+
+}
+
+.bg-light h1{
+
+font-size:55px;
+
+margin-bottom:15px;
+
+}
+
+/* ===============================
+   PROMOTION
+================================ */
+
+.bg-primary{
+
+background:#0d6efd !important;
+
+}
+
+.bg-primary h2{
+
+font-weight:700;
+
+}
+
+/* ===============================
+   STATISTICS
+================================ */
+
+.display-5{
+
+font-size:50px;
+
+font-weight:700;
+
+}
+
+.text-primary{
+
+color:#0d6efd !important;
+
+}
+
+/* ===============================
+   TESTIMONIALS
+================================ */
+
+.card h6{
+
+margin-top:20px;
+
+font-weight:600;
+
+color:#0d6efd;
+
+}
+
+.card p{
+
+font-size:15px;
+
+}
+
+/* ===============================
+   NEWSLETTER
+================================ */
+
+.bg-dark{
+
+background:#111 !important;
+
+}
+
+.bg-dark input{
+
+height:55px;
+
+border-radius:30px;
+
+}
+
+.bg-dark button{
+
+border-radius:30px;
+
+}
+
+/* ===============================
+   FOOTER
+================================ */
+
+footer{
+
+background:#000;
+
+color:white;
+
+}
+
+footer a{
+
+color:white;
+
+transition:.3s;
+
+}
+
+footer a:hover{
+
+color:#0d6efd;
+
+text-decoration:none;
+
+}
+
+footer h5{
+
+margin-bottom:20px;
+
+font-weight:600;
+
+}
+
+footer p{
+
+font-size:15px;
+
+}
+
+hr{
+
+opacity:.2;
+
+}
+
+/* ==========================================
+   PAGE HEADER
+========================================== */
+
+.page-header{
+
+background:linear-gradient(rgba(13,110,253,.9),rgba(13,110,253,.9)),
+url("https://images.unsplash.com/photo-1522199755839-a2bacb67c546?auto=format&fit=crop&w=1800&q=80");
+
+background-size:cover;
+
+background-position:center;
+
+padding:100px 0;
+
+color:white;
+
+text-align:center;
+
+}
+
+.page-header h1{
+
+font-size:50px;
+
+font-weight:700;
+
+margin-bottom:15px;
+
+}
+
+.page-header p{
+
+font-size:20px;
+
+}
+
+/* ==========================================
+   FEATURE CARDS
+========================================== */
+
+.feature-card{
+
+padding:25px;
+
+text-align:center;
+
+height:100%;
+
+transition:.3s;
+
+}
+
+.feature-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.feature-card h1{
+
+font-size:60px;
+
+margin-bottom:20px;
+
+}
+
+/* ==========================================
+   TEAM CARDS
+========================================== */
+
+.team-card{
+
+padding:25px;
+
+text-align:center;
+
+height:100%;
+
+}
+
+.team-card img{
+
+width:150px;
+
+height:150px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+margin-bottom:20px;
+
+}
+
+.team-card h4{
+
+font-weight:700;
+
+margin-bottom:10px;
+
+}
+
+.team-card p{
+
+color:#666;
+
+}
+
+/* ==========================================
+   CONTACT PAGE
+========================================== */
+
+.contact-card{
+
+background:white;
+
+border-radius:15px;
+
+padding:35px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.contact-card h3{
+
+margin-bottom:25px;
+
+font-weight:700;
+
+}
+
+.contact-card p{
+
+margin-bottom:15px;
+
+}
+
+/* ==========================================
+   CONTACT FORM
+========================================== */
+
+form{
+
+background:white;
+
+padding:30px;
+
+border-radius:15px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.form-label{
+
+font-weight:600;
+
+}
+
+.form-control{
+
+padding:12px;
+
+border-radius:10px;
+
+border:1px solid #ddd;
+
+}
+
+.form-control:focus{
+
+border-color:#0d6efd;
+
+box-shadow:0 0 10px rgba(13,110,253,.25);
+
+}
+
+/* ==========================================
+   GOOGLE MAP
+========================================== */
+
+iframe{
+
+border-radius:15px;
+
+border:none;
+
+}
+
+/* ==========================================
+   ICON BOXES
+========================================== */
+
+.icon-box{
+
+background:white;
+
+padding:30px;
+
+border-radius:15px;
+
+text-align:center;
+
+transition:.3s;
+
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.icon-box:hover{
+
+transform:translateY(-8px);
+
+}
+
+.icon-box h2{
+
+font-size:45px;
+
+margin-bottom:15px;
+
+}
+
+/* ==========================================
+   LIST GROUP
+========================================== */
+
+.list-group-item{
+
+border:none;
+
+padding:15px;
+
+}
+
+/* ==========================================
+   ANIMATIONS
+========================================== */
+
+.card,
+
+.btn,
+
+.feature-card,
+
+.team-card,
+
+.icon-box{
+
+transition:.35s ease;
+
+}
+
+img{
+
+transition:.4s;
+
+}
+
+img:hover{
+
+transform:scale(1.03);
+
+}
+
+/* ==========================================
+   SHADOWS
+========================================== */
+
+.shadow{
+
+box-shadow:0 15px 35px rgba(0,0,0,.15)!important;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width:1200px){
+
+.hero h1{
+
+font-size:50px;
+
+}
+
+}
+
+@media (max-width:992px){
+
+.hero{
+
+text-align:center;
+
+padding:90px 0;
+
+min-height:auto;
+
+}
+
+.hero img{
+
+margin-top:40px;
+
+}
+
+.hero h1{
+
+font-size:42px;
+
+}
+
+.page-header{
+
+padding:80px 20px;
+
+}
+
+.display-5{
+
+font-size:40px;
+
+}
+
+}
+
+@media (max-width:768px){
+
+section{
+
+padding:60px 20px;
+
+}
+
+.hero{
+
+padding:70px 20px;
+
+}
+
+.hero h1{
+
+font-size:34px;
+
+}
+
+.hero p{
+
+font-size:17px;
+
+}
+
+.page-header h1{
+
+font-size:36px;
+
+}
+
+.card-img-top{
+
+height:200px;
+
+}
+
+.btn{
+
+width:100%;
+
+margin-bottom:12px;
+
+}
+
+footer{
+
+text-align:center;
+
+}
+
+footer .col-lg-4,
+
+footer .col-lg-3,
+
+footer .col-lg-2{
+
+margin-bottom:30px;
+
+}
+
+}
+
+@media (max-width:576px){
+
+.hero{
+
+padding:50px 15px;
+
+}
+
+.hero h1{
+
+font-size:28px;
+
+}
+
+.hero p{
+
+font-size:15px;
+
+}
+
+.page-header{
+
+padding:60px 15px;
+
+}
+
+.page-header h1{
+
+font-size:30px;
+
+}
+
+.card-img-top{
+
+height:180px;
+
+}
+
+.display-5{
+
+font-size:34px;
+
+}
+
+.overview-box{
+
+margin-top:30px;
+
+}
+
+}
+
+/* ==========================================
+   SCROLLBAR
+========================================== */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#f1f1f1;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#0d6efd;
+
+border-radius:10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+background:#0b5ed7;
+
+}

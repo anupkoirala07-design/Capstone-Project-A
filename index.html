@@ -1,192 +1,556 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Secure Retail Product Catalogue</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<style>
-body{
-    background-color:#f5f5f5;
-}
+<link rel="stylesheet" href="css/style.css">
 
-.hero{
-    background:white;
-    padding:50px;
-    border-radius:10px;
-    margin-top:30px;
-    text-align:center;
-}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-.card{
-    transition:0.3s;
-}
-
-.card:hover{
-    transform:translateY(-5px);
-}
-
-.card-img-top{
-    height:200px;
-    object-fit:cover;
-}
-
-.login-section,
-.admin-section{
-    background:white;
-    padding:30px;
-    border-radius:10px;
-    margin-top:40px;
-}
-
-footer{
-    background:#212529;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:50px;
-}
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
 <div class="container">
 
-<a class="navbar-brand" href="#">
-Secure Retail System
+<a class="navbar-brand fw-bold" href="index.html">
+
+🛒 Secure Retail
+
 </a>
 
-<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<button
+
+class="navbar-toggler"
+
+type="button"
+
+data-bs-toggle="collapse"
+
+data-bs-target="#navbarNav">
+
 <span class="navbar-toggler-icon"></span>
+
 </button>
 
-<div class="collapse navbar-collapse" id="menu">
+<div class="collapse navbar-collapse" id="navbarNav">
 
 <ul class="navbar-nav ms-auto">
 
-<ul class="navbar-nav ms-auto">
-
 <li class="nav-item">
-<a class="nav-link" href="#">Home</a>
+
+<a class="nav-link active"
+
+href="index.html">
+
+Home
+
+</a>
+
 </li>
 
 <li class="nav-item">
-<a class="nav-link" href="#">Products</a>
+
+<a class="nav-link"
+
+href="#products">
+
+Products
+
+</a>
+
 </li>
 
 <li class="nav-item">
-<a class="nav-link" href="#">Login</a>
+
+<a class="nav-link"
+
+href="about.html">
+
+About
+
+</a>
+
 </li>
 
 <li class="nav-item">
-<a class="nav-link" href="#">Admin</a>
-</li>
 
-<li class="nav-item">
-<a class="nav-link" href="contact.html">Contact Us</a>
+<a class="nav-link"
+
+href="contact.html">
+
+Contact
+
+</a>
+
 </li>
 
 </ul>
 
 </div>
+
 </div>
+
 </nav>
 
-<!-- HERO -->
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
 <div class="container">
 
-<div class="hero">
+<div class="row align-items-center">
 
-<h1>Welcome to Secure Retail Product Catalogue</h1>
+<div class="col-lg-6">
 
-<p class="lead">
-Browse products securely and efficiently.
+<h1 class="display-3 fw-bold">
+
+Shop Smarter with
+
+Secure Retail
+
+</h1>
+
+<p class="lead mt-4">
+
+Discover premium electronic products at competitive prices.
+
+Enjoy a secure shopping experience with responsive design,
+
+easy navigation and high-quality products.
+
 </p>
 
-<button class="btn btn-primary btn-lg">
-View Products
-</button>
+<div class="mt-4">
+
+<a href="#products"
+
+class="btn btn-primary btn-lg me-3">
+
+Browse Products
+
+</a>
+
+<a href="about.html"
+
+class="btn btn-outline-light btn-lg">
+
+Learn More
+
+</a>
 
 </div>
 
 </div>
 
-<!-- PRODUCTS -->
-<div class="container mt-5">
+<div class="col-lg-6 text-center">
 
-<h2 class="mb-4">Featured Products</h2>
+<img
+
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTasx3gjrkDmwtPFzfxtvFGKVUQcUydWA5BeaLZRLQ5DQ&s=10"
+
+class="img-fluid rounded shadow-lg"
+
+alt="Shopping">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= PROJECT OVERVIEW ================= -->
+
+<section class="container py-5">
+
+<div class="row align-items-center">
+
+<div class="col-lg-6">
+
+<img
+
+src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=900&q=80"
+
+class="img-fluid rounded shadow"
+
+alt="Retail Store">
+
+</div>
+
+<div class="col-lg-6">
+
+<h2>
+
+About Our Store
+
+</h2>
+
+<p>
+
+The Secure Retail Product Catalogue System is a responsive
+
+frontend web application developed as part of our Capstone
+
+Project.
+
+</p>
+
+<p>
+
+Our goal is to provide customers with a secure,
+
+modern and user-friendly platform for browsing
+
+electronic products online.
+
+</p>
+
+<div class="row mt-4">
+
+<div class="col-6">
+
+<h3 class="text-primary">
+
+500+
+
+</h3>
+
+<p>
+
+Products
+
+</p>
+
+</div>
+
+<div class="col-6">
+
+<h3 class="text-primary">
+
+2,000+
+
+</h3>
+
+<p>
+
+Happy Customers
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+
+<section class="bg-light py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-5">
+
+Why Choose Secure Retail?
+
+</h2>
 
 <div class="row">
 
-<!-- PRODUCT 1 -->
-<div class="col-md-4 mb-4">
+<div class="col-md-4">
 
-<div class="card">
+<div class="card h-100 shadow">
 
-<img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8" class="card-img-top" alt="Laptop">
+<div class="card-body text-center">
+
+<h1>
+
+🚚
+
+</h1>
+
+<h4>
+
+Fast Delivery
+
+</h4>
+
+<p>
+
+Australia-wide delivery with trusted logistics partners.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card h-100 shadow">
+
+<div class="card-body text-center">
+
+<h1>
+
+🔒
+
+</h1>
+
+<h4>
+
+Secure Shopping
+
+</h4>
+
+<p>
+
+Designed using secure web development principles.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card h-100 shadow">
+
+<div class="card-body text-center">
+
+<h1>
+
+⭐
+
+</h1>
+
+<h4>
+
+Premium Quality
+
+</h4>
+
+<p>
+
+Only carefully selected electronic products.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FEATURED PRODUCTS ================= -->
+
+<section id="products" class="container py-5">
+
+<h2 class="text-center mb-5">
+
+Featured Products
+
+</h2>
+
+<div class="row g-4">
+
+    <!-- ================= PRODUCT 1 ================= -->
+
+<div class="col-md-6 col-lg-3">
+
+<div class="card h-100 shadow">
+
+<img
+src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=600&q=80"
+class="card-img-top"
+alt="Business Laptop">
 
 <div class="card-body">
 
-<h5 class="card-title">Laptop</h5>
-<p>Powerful business laptop.</p>
-<h5>$1299</h5>
+<h5 class="card-title">
 
-<button class="btn btn-success">
-View Product
+Business Laptop
+
+</h5>
+
+<p class="card-text">
+
+Powerful Intel Core i7 laptop designed for work, study and business.
+
+</p>
+
+<h4 class="text-primary">
+
+$899
+
+</h4>
+
+<button class="btn btn-primary w-100">
+
+View Details
+
 </button>
 
 </div>
-</div>
 
 </div>
 
-<!-- PRODUCT 2 -->
-<div class="col-md-4 mb-4">
+</div>
 
-<div class="card">
+<!-- ================= PRODUCT 2 ================= -->
 
-<img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" class="card-img-top" alt="Smartphone">
+<div class="col-md-6 col-lg-3">
+
+<div class="card h-100 shadow">
+
+<img
+src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80"
+class="card-img-top"
+alt="Smartphone">
 
 <div class="card-body">
 
-<h5 class="card-title">Smartphone</h5>
-<p>Latest smartphone model.</p>
-<h5>$999</h5>
+<h5>
 
-<button class="btn btn-success">
-View Product
+Smart Phone
+
+</h5>
+
+<p>
+
+Latest generation smartphone featuring an OLED display and 5G connectivity.
+
+</p>
+
+<h4 class="text-primary">
+
+$699
+
+</h4>
+
+<button class="btn btn-primary w-100">
+
+View Details
+
 </button>
 
 </div>
-</div>
 
 </div>
 
-<!-- PRODUCT 3 -->
-<div class="col-md-4 mb-4">
+</div>
 
-<div class="card">
+<!-- ================= PRODUCT 3 ================= -->
 
-<img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e" class="card-img-top" alt="Headphones">
+<div class="col-md-6 col-lg-3">
+
+<div class="card h-100 shadow">
+
+<img
+src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80"
+class="card-img-top"
+alt="Headphones">
 
 <div class="card-body">
 
-<h5 class="card-title">Headphones</h5>
-<p>Noise cancelling headphones.</p>
-<h5>$299</h5>
+<h5>
 
-<button class="btn btn-success">
-View Product
+Wireless Headphones
+
+</h5>
+
+<p>
+
+Premium over-ear headphones with active noise cancellation.
+
+</p>
+
+<h4 class="text-primary">
+
+$199
+
+</h4>
+
+<button class="btn btn-primary w-100">
+
+View Details
+
 </button>
 
 </div>
+
 </div>
+
+</div>
+
+<!-- ================= PRODUCT 4 ================= -->
+
+<div class="col-md-6 col-lg-3">
+
+<div class="card h-100 shadow">
+
+<img
+src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=600&q=80"
+class="card-img-top"
+alt="Smart Watch">
+
+<div class="card-body">
+
+<h5>
+
+Smart Watch
+
+</h5>
+
+<p>
+
+Track your fitness, heart rate and notifications with style.
+
+</p>
+
+<h4 class="text-primary">
+
+$299
+
+</h4>
+
+<button class="btn btn-primary w-100">
+
+View Details
+
+</button>
 
 </div>
 
@@ -194,101 +558,514 @@ View Product
 
 </div>
 
-<!-- LOGIN FORM -->
+</div>
+
+</section>
+
+<!-- ================= PROMOTIONAL BANNER ================= -->
+
+<section class="py-5 bg-primary text-white">
+
 <div class="container">
 
-<div class="login-section">
+<div class="row align-items-center">
 
-<h2>User Login</h2>
+<div class="col-lg-6">
 
-<form>
+<h2 class="fw-bold">
 
-<div class="mb-3">
-<label>Email</label>
-<input type="email" class="form-control" placeholder="Enter Email">
+Summer Tech Sale
+
+</h2>
+
+<p class="lead">
+
+Save up to <strong>40% OFF</strong> on selected electronic products.
+
+Upgrade your technology today with exclusive online offers.
+
+</p>
+
+<a href="#products" class="btn btn-light btn-lg">
+
+Shop Now
+
+</a>
+
 </div>
 
-<div class="mb-3">
-<label>Password</label>
-<input type="password" class="form-control" placeholder="Enter Password">
+<div class="col-lg-6">
+
+<img
+
+src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80"
+
+class="img-fluid rounded shadow"
+
+alt="Technology">
+
 </div>
 
-<button class="btn btn-primary">
-Login
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= STORE STATISTICS ================= -->
+
+<section class="container py-5">
+
+<div class="row text-center">
+
+<div class="col-md-3">
+
+<h1 class="display-5 text-primary">
+
+500+
+
+</h1>
+
+<p>
+
+Products
+
+</p>
+
+</div>
+
+<div class="col-md-3">
+
+<h1 class="display-5 text-primary">
+
+2,000+
+
+</h1>
+
+<p>
+
+Satisfied Customers
+
+</p>
+
+</div>
+
+<div class="col-md-3">
+
+<h1 class="display-5 text-primary">
+
+98%
+
+</h1>
+
+<p>
+
+Customer Satisfaction
+
+</p>
+
+</div>
+
+<div class="col-md-3">
+
+<h1 class="display-5 text-primary">
+
+24/7
+
+</h1>
+
+<p>
+
+Customer Support
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+
+<section class="bg-light py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-5">
+
+Customer Reviews
+
+</h2>
+
+<div class="row">
+
+<div class="col-md-4">
+
+<div class="card shadow h-100">
+
+<div class="card-body">
+
+<h5>
+
+⭐⭐⭐⭐⭐
+
+</h5>
+
+<p>
+
+"The website is easy to use and the products are excellent quality. Highly recommended."
+
+</p>
+
+<h6>
+
+— Sarah Williams
+
+</h6>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card shadow h-100">
+
+<div class="card-body">
+
+<h5>
+
+⭐⭐⭐⭐⭐
+
+</h5>
+
+<p>
+
+"I found exactly what I needed. Fast delivery and outstanding customer service."
+
+</p>
+
+<h6>
+
+— Michael Brown
+
+</h6>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card shadow h-100">
+
+<div class="card-body">
+
+<h5>
+
+⭐⭐⭐⭐⭐
+
+</h5>
+
+<p>
+
+"A clean, modern website that works perfectly on my phone and laptop."
+
+</p>
+
+<h6>
+
+— Emily Johnson
+
+</h6>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CALL TO ACTION ================= -->
+
+<section class="py-5">
+
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-lg-8">
+
+<h2 class="fw-bold">
+
+Ready to Upgrade Your Technology?
+
+</h2>
+
+<p class="lead">
+
+Browse our latest electronic products and enjoy a secure online shopping experience with premium customer service.
+
+</p>
+
+</div>
+
+<div class="col-lg-4 text-lg-end">
+
+<a href="#products" class="btn btn-primary btn-lg">
+
+Shop Now
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="bg-dark text-white py-5">
+
+<div class="container text-center">
+
+<h2>
+
+Subscribe to Our Newsletter
+
+</h2>
+
+<p>
+
+Receive exclusive offers, new arrivals and technology news directly in your inbox.
+
+</p>
+
+<form class="row justify-content-center mt-4">
+
+<div class="col-md-6">
+
+<input
+
+type="email"
+
+class="form-control form-control-lg"
+
+placeholder="Enter your email address">
+
+</div>
+
+<div class="col-md-2 mt-3 mt-md-0">
+
+<button
+
+class="btn btn-warning btn-lg w-100"
+
+type="button">
+
+Subscribe
+
 </button>
+
+</div>
 
 </form>
 
 </div>
 
-</div>
+</section>
 
-<!-- ADMIN DASHBOARD -->
+<!-- ================= FOOTER ================= -->
+
+<footer class="bg-black text-white pt-5 pb-3">
+
 <div class="container">
 
-<div class="admin-section">
+<div class="row">
 
-<div class="d-flex justify-content-between mb-3">
+<div class="col-lg-4">
 
-<h2>Admin Dashboard</h2>
+<h4>
 
-<button class="btn btn-success">
-Add Product
-</button>
+Secure Retail
 
-</div>
+</h4>
 
-<table class="table table-bordered">
+<p>
 
-<thead class="table-dark">
+Providing high-quality electronic products with a secure and modern online shopping experience.
 
-<tr>
-<th>ID</th>
-<th>Product</th>
-<th>Price</th>
-<th>Category</th>
-<th>Action</th>
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-<td>1</td>
-<td>Laptop</td>
-<td>$1299</td>
-<td>Electronics</td>
-<td>
-<button class="btn btn-warning btn-sm">Edit</button>
-<button class="btn btn-danger btn-sm">Delete</button>
-</td>
-</tr>
-
-<tr>
-<td>2</td>
-<td>Phone</td>
-<td>$999</td>
-<td>Electronics</td>
-<td>
-<button class="btn btn-warning btn-sm">Edit</button>
-<button class="btn btn-danger btn-sm">Delete</button>
-</td>
-</tr>
-
-</tbody>
-
-</table>
+</p>
 
 </div>
 
+<div class="col-lg-2">
+
+<h5>
+
+Quick Links
+
+</h5>
+
+<ul class="list-unstyled">
+
+<li>
+
+<a href="index.html" class="text-white text-decoration-none">
+
+Home
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#products" class="text-white text-decoration-none">
+
+Products
+
+</a>
+
+</li>
+
+<li>
+
+<a href="about.html" class="text-white text-decoration-none">
+
+About
+
+</a>
+
+</li>
+
+<li>
+
+<a href="contact.html" class="text-white text-decoration-none">
+
+Contact
+
+</a>
+
+</li>
+
+</ul>
+
 </div>
 
-<footer>
-<p>Capstone Project - Secure Retail Product Catalogue System</p>
+<div class="col-lg-3">
+
+<h5>
+
+Customer Service
+
+</h5>
+
+<ul class="list-unstyled">
+
+<li>
+
+Free Shipping
+
+</li>
+
+<li>
+
+30-Day Returns
+
+</li>
+
+<li>
+
+Secure Payment
+
+</li>
+
+<li>
+
+24/7 Support
+
+</li>
+
+</ul>
+
+</div>
+
+<div class="col-lg-3">
+
+<h5>
+
+Contact Us
+
+</h5>
+
+<p>
+
+📍 Sydney, NSW, Australia
+
+</p>
+
+<p>
+
+📞 +61 2 1234 5678
+
+</p>
+
+<p>
+
+✉ support@secureretail.com
+
+</p>
+
+</div>
+
+</div>
+
+<hr class="border-secondary">
+
+<div class="row">
+
+<div class="col-md-6">
+
+<p class="mb-0">
+
+© 2026 Secure Retail Product Catalogue System
+
+</p>
+
+</div>
+
+<div class="col-md-6 text-md-end">
+
+<span class="me-3">📘 Facebook</span>
+
+<span class="me-3">📷 Instagram</span>
+
+<span>💼 LinkedIn</span>
+
+</div>
+
+</div>
+
+</div>
+
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
