@@ -220,17 +220,6 @@ Possible future enhancements include:
 - Admin dashboard
 - Customer accounts
 
----
-
-# Author
-
-**Student Name:** Ishwor Subedi
-
-**Course:** Capstone Project
-
-**Sprint:** Sprint 3 – Frontend Development
-
----
 
 # License
 
