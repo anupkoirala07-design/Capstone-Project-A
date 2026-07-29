@@ -1,7 +1,6 @@
 /*====================================================
   Secure Retail Product Catalogue
-  Sprint 3 - Professional Edition
-  Part 1
+
 =====================================================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
@@ -1532,3 +1531,9 @@ background:white;
 /*========================
 END OF FILE
 =========================*/
+.about-hero{min-height:60vh;background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url(https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600) center/cover}
+.about-card{background:#fff;border-radius:16px;box-shadow:0 10px 25px rgba(0,0,0,.1);transition:.3s}
+.about-card:hover{transform:translateY(-8px)}
+.stats-section{background:#0d6efd;color:#fff}
+.stats-section h2{font-size:3rem;font-weight:700}
+
