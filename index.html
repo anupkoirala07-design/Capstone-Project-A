@@ -4,7 +4,6 @@
 <head>
 
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Secure Retail Product Catalogue</title>
@@ -16,7 +15,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Bootstrap Icons -->
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 </head>
 
@@ -30,7 +34,9 @@
 
 <a class="navbar-brand fw-bold" href="index.html">
 
-🛒 Secure Retail
+<i class="bi bi-bag-check-fill"></i>
+
+Secure Retail
 
 </a>
 
@@ -50,13 +56,11 @@ data-bs-target="#navbarNav">
 
 <div class="collapse navbar-collapse" id="navbarNav">
 
-<ul class="navbar-nav ms-auto">
+<ul class="navbar-nav me-auto">
 
 <li class="nav-item">
 
-<a class="nav-link active"
-
-href="index.html">
+<a class="nav-link active" href="index.html">
 
 Home
 
@@ -66,9 +70,7 @@ Home
 
 <li class="nav-item">
 
-<a class="nav-link"
-
-href="#products">
+<a class="nav-link" href="#products">
 
 Products
 
@@ -78,9 +80,7 @@ Products
 
 <li class="nav-item">
 
-<a class="nav-link"
-
-href="about.html">
+<a class="nav-link" href="about.html">
 
 About
 
@@ -90,9 +90,7 @@ About
 
 <li class="nav-item">
 
-<a class="nav-link"
-
-href="contact.html">
+<a class="nav-link" href="contact.html">
 
 Contact
 
@@ -101,6 +99,34 @@ Contact
 </li>
 
 </ul>
+
+<form class="d-flex me-3">
+
+<input
+
+class="form-control"
+
+type="search"
+
+placeholder="Search products...">
+
+<button
+
+class="btn btn-primary ms-2">
+
+<i class="bi bi-search"></i>
+
+</button>
+
+</form>
+
+<a href="#" class="btn btn-outline-light">
+
+<i class="bi bi-cart3"></i>
+
+Cart
+
+</a>
 
 </div>
 
@@ -118,21 +144,23 @@ Contact
 
 <div class="col-lg-6">
 
+<span class="badge bg-warning text-dark fs-6 mb-3">
+
+🔥 Summer Mega Sale - Up To 40% OFF
+
+</span>
+
 <h1 class="display-3 fw-bold">
 
-Shop Smarter with
+Upgrade Your Tech,
 
-Secure Retail
+Upgrade Your Life.
 
 </h1>
 
 <p class="lead mt-4">
 
-Discover premium electronic products at competitive prices.
-
-Enjoy a secure shopping experience with responsive design,
-
-easy navigation and high-quality products.
+Shop the latest laptops, smartphones, headphones and smart watches with secure online shopping, exclusive offers and fast Australia-wide delivery.
 
 </p>
 
@@ -142,7 +170,7 @@ easy navigation and high-quality products.
 
 class="btn btn-primary btn-lg me-3">
 
-Browse Products
+Shop Now
 
 </a>
 
@@ -156,17 +184,45 @@ Learn More
 
 </div>
 
+<div class="row mt-5">
+
+<div class="col-4">
+
+<h3>500+</h3>
+
+<p>Products</p>
+
+</div>
+
+<div class="col-4">
+
+<h3>2000+</h3>
+
+<p>Customers</p>
+
+</div>
+
+<div class="col-4">
+
+<h3>98%</h3>
+
+<p>Reviews</p>
+
+</div>
+
+</div>
+
 </div>
 
 <div class="col-lg-6 text-center">
 
 <img
 
-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTasx3gjrkDmwtPFzfxtvFGKVUQcUydWA5BeaLZRLQ5DQ&s=10"
+src="https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=900&q=80"
 
-class="img-fluid rounded shadow-lg"
+class="img-fluid rounded-4 shadow-lg"
 
-alt="Shopping">
+alt="Online Shopping">
 
 </div>
 
@@ -176,7 +232,111 @@ alt="Shopping">
 
 </section>
 
-<!-- ================= PROJECT OVERVIEW ================= -->
+<!-- ================= SHOP BY CATEGORY ================= -->
+
+<section class="container py-5">
+
+<h2 class="text-center mb-5">
+
+Shop by Category
+
+</h2>
+
+<div class="row text-center">
+
+<div class="col-lg-3 col-md-6 mb-4">
+
+<div class="icon-box">
+
+<i class="bi bi-laptop display-4"></i>
+
+<h4 class="mt-3">
+
+Laptops
+
+</h4>
+
+<p>
+
+High-performance business and gaming laptops.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-3 col-md-6 mb-4">
+
+<div class="icon-box">
+
+<i class="bi bi-phone display-4"></i>
+
+<h4 class="mt-3">
+
+Smartphones
+
+</h4>
+
+<p>
+
+Latest Android and Apple devices.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-3 col-md-6 mb-4">
+
+<div class="icon-box">
+
+<i class="bi bi-smartwatch display-4"></i>
+
+<h4 class="mt-3">
+
+Smart Watches
+
+</h4>
+
+<p>
+
+Fitness and lifestyle wearable devices.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-3 col-md-6 mb-4">
+
+<div class="icon-box">
+
+<i class="bi bi-headphones display-4"></i>
+
+<h4 class="mt-3">
+
+Accessories
+
+</h4>
+
+<p>
+
+Headphones, speakers and premium accessories.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= ABOUT STORE ================= -->
 
 <section class="container py-5">
 
@@ -186,9 +346,9 @@ alt="Shopping">
 
 <img
 
-src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=900&q=80"
+src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=900&q=80"
 
-class="img-fluid rounded shadow"
+class="img-fluid rounded-4 shadow"
 
 alt="Retail Store">
 
@@ -196,29 +356,21 @@ alt="Retail Store">
 
 <div class="col-lg-6">
 
-<h2>
+<span class="text-primary fw-bold">
 
-About Our Store
+ABOUT SECURE RETAIL
+
+</span>
+
+<h2 class="mt-3">
+
+Australia's Trusted Electronics Store
 
 </h2>
 
 <p>
 
-The Secure Retail Product Catalogue System is a responsive
-
-frontend web application developed as part of our Capstone
-
-Project.
-
-</p>
-
-<p>
-
-Our goal is to provide customers with a secure,
-
-modern and user-friendly platform for browsing
-
-electronic products online.
+Secure Retail provides premium technology products through a modern, secure and responsive online shopping platform. Our mission is to deliver quality electronics backed by excellent customer service.
 
 </p>
 
@@ -226,15 +378,15 @@ electronic products online.
 
 <div class="col-6">
 
-<h3 class="text-primary">
+<h4>
 
-500+
+🚚 Fast Delivery
 
-</h3>
+</h4>
 
 <p>
 
-Products
+Australia-wide shipping.
 
 </p>
 
@@ -242,127 +394,49 @@ Products
 
 <div class="col-6">
 
-<h3 class="text-primary">
-
-2,000+
-
-</h3>
-
-<p>
-
-Happy Customers
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ================= WHY CHOOSE US ================= -->
-
-<section class="bg-light py-5">
-
-<div class="container">
-
-<h2 class="text-center mb-5">
-
-Why Choose Secure Retail?
-
-</h2>
-
-<div class="row">
-
-<div class="col-md-4">
-
-<div class="card h-100 shadow">
-
-<div class="card-body text-center">
-
-<h1>
-
-🚚
-
-</h1>
-
 <h4>
 
-Fast Delivery
+🔒 Secure Payment
 
 </h4>
 
 <p>
 
-Australia-wide delivery with trusted logistics partners.
+Safe and encrypted checkout.
 
 </p>
 
 </div>
 
-</div>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="card h-100 shadow">
-
-<div class="card-body text-center">
-
-<h1>
-
-🔒
-
-</h1>
+<div class="col-6">
 
 <h4>
 
-Secure Shopping
+⭐ Premium Quality
 
 </h4>
 
 <p>
 
-Designed using secure web development principles.
+Trusted global brands.
 
 </p>
 
 </div>
 
-</div>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="card h-100 shadow">
-
-<div class="card-body text-center">
-
-<h1>
-
-⭐
-
-</h1>
+<div class="col-6">
 
 <h4>
 
-Premium Quality
+💬 24/7 Support
 
 </h4>
 
 <p>
 
-Only carefully selected electronic products.
+Dedicated customer care.
 
 </p>
-
-</div>
 
 </div>
 
@@ -386,28 +460,59 @@ Featured Products
 
 <div class="row g-4">
 
-    <!-- ================= PRODUCT 1 ================= -->
+<!-- ================= PRODUCT 1 ================= -->
 
-<div class="col-md-6 col-lg-3">
+<div class="col-lg-3 col-md-6">
 
-<div class="card h-100 shadow">
+<div class="card product-card">
+
+<span class="badge bg-danger position-absolute m-3">
+
+SALE
+
+</span>
 
 <img
-src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=600&q=80"
+
+src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=700&q=80"
+
 class="card-img-top"
-alt="Business Laptop">
+
+alt="Laptop">
+
+<div class="overlay">
+
+<button class="btn btn-light">
+
+Quick View
+
+</button>
+
+</div>
 
 <div class="card-body">
 
-<h5 class="card-title">
+<h5 class="fw-bold">
 
-Business Laptop
+Dell XPS Laptop
 
 </h5>
 
-<p class="card-text">
+<div class="mb-2">
 
-Powerful Intel Core i7 laptop designed for work, study and business.
+⭐⭐⭐⭐⭐
+
+<span class="text-muted">
+
+(156)
+
+</span>
+
+</div>
+
+<p>
+
+Powerful Intel Core i7 laptop ideal for work, business and study.
 
 </p>
 
@@ -415,13 +520,29 @@ Powerful Intel Core i7 laptop designed for work, study and business.
 
 $899
 
+<small class="text-muted">
+
+<del>$1099</del>
+
+</small>
+
 </h4>
 
-<button class="btn btn-primary w-100">
+<div class="d-grid gap-2">
 
-View Details
+<button class="btn btn-primary">
+
+🛒 Add to Cart
 
 </button>
+
+<button class="btn btn-outline-secondary">
+
+❤️ Wishlist
+
+</button>
+
+</div>
 
 </div>
 
@@ -431,26 +552,57 @@ View Details
 
 <!-- ================= PRODUCT 2 ================= -->
 
-<div class="col-md-6 col-lg-3">
+<div class="col-lg-3 col-md-6">
 
-<div class="card h-100 shadow">
+<div class="card product-card">
+
+<span class="badge bg-success position-absolute m-3">
+
+NEW
+
+</span>
 
 <img
-src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80"
+
+src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=700&q=80"
+
 class="card-img-top"
+
 alt="Smartphone">
+
+<div class="overlay">
+
+<button class="btn btn-light">
+
+Quick View
+
+</button>
+
+</div>
 
 <div class="card-body">
 
-<h5>
+<h5 class="fw-bold">
 
-Smart Phone
+Samsung Galaxy S25
 
 </h5>
 
+<div class="mb-2">
+
+⭐⭐⭐⭐⭐
+
+<span class="text-muted">
+
+(201)
+
+</span>
+
+</div>
+
 <p>
 
-Latest generation smartphone featuring an OLED display and 5G connectivity.
+Latest AI-powered smartphone with an exceptional camera and battery life.
 
 </p>
 
@@ -458,13 +610,29 @@ Latest generation smartphone featuring an OLED display and 5G connectivity.
 
 $699
 
+<small class="text-muted">
+
+<del>$799</del>
+
+</small>
+
 </h4>
 
-<button class="btn btn-primary w-100">
+<div class="d-grid gap-2">
 
-View Details
+<button class="btn btn-primary">
+
+🛒 Add to Cart
 
 </button>
+
+<button class="btn btn-outline-secondary">
+
+❤️ Wishlist
+
+</button>
+
+</div>
 
 </div>
 
@@ -474,26 +642,57 @@ View Details
 
 <!-- ================= PRODUCT 3 ================= -->
 
-<div class="col-md-6 col-lg-3">
+<div class="col-lg-3 col-md-6">
 
-<div class="card h-100 shadow">
+<div class="card product-card">
+
+<span class="badge bg-warning text-dark position-absolute m-3">
+
+BEST SELLER
+
+</span>
 
 <img
-src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80"
+
+src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80"
+
 class="card-img-top"
+
 alt="Headphones">
+
+<div class="overlay">
+
+<button class="btn btn-light">
+
+Quick View
+
+</button>
+
+</div>
 
 <div class="card-body">
 
-<h5>
+<h5 class="fw-bold">
 
-Wireless Headphones
+Sony WH-1000XM5
 
 </h5>
 
+<div class="mb-2">
+
+⭐⭐⭐⭐⭐
+
+<span class="text-muted">
+
+(430)
+
+</span>
+
+</div>
+
 <p>
 
-Premium over-ear headphones with active noise cancellation.
+Premium wireless headphones with industry-leading noise cancellation.
 
 </p>
 
@@ -501,13 +700,29 @@ Premium over-ear headphones with active noise cancellation.
 
 $199
 
+<small class="text-muted">
+
+<del>$249</del>
+
+</small>
+
 </h4>
 
-<button class="btn btn-primary w-100">
+<div class="d-grid gap-2">
 
-View Details
+<button class="btn btn-primary">
+
+🛒 Add to Cart
 
 </button>
+
+<button class="btn btn-outline-secondary">
+
+❤️ Wishlist
+
+</button>
+
+</div>
 
 </div>
 
@@ -517,26 +732,57 @@ View Details
 
 <!-- ================= PRODUCT 4 ================= -->
 
-<div class="col-md-6 col-lg-3">
+<div class="col-lg-3 col-md-6">
 
-<div class="card h-100 shadow">
+<div class="card product-card">
+
+<span class="badge bg-info position-absolute m-3">
+
+HOT
+
+</span>
 
 <img
-src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=600&q=80"
+
+src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=700&q=80"
+
 class="card-img-top"
+
 alt="Smart Watch">
+
+<div class="overlay">
+
+<button class="btn btn-light">
+
+Quick View
+
+</button>
+
+</div>
 
 <div class="card-body">
 
-<h5>
+<h5 class="fw-bold">
 
-Smart Watch
+Apple Watch Series
 
 </h5>
 
+<div class="mb-2">
+
+⭐⭐⭐⭐⭐
+
+<span class="text-muted">
+
+(310)
+
+</span>
+
+</div>
+
 <p>
 
-Track your fitness, heart rate and notifications with style.
+Track your fitness, health and daily activities with style.
 
 </p>
 
@@ -544,13 +790,29 @@ Track your fitness, heart rate and notifications with style.
 
 $299
 
+<small class="text-muted">
+
+<del>$379</del>
+
+</small>
+
 </h4>
 
-<button class="btn btn-primary w-100">
+<div class="d-grid gap-2">
 
-View Details
+<button class="btn btn-primary">
+
+🛒 Add to Cart
 
 </button>
+
+<button class="btn btn-outline-secondary">
+
+❤️ Wishlist
+
+</button>
+
+</div>
 
 </div>
 
@@ -562,47 +824,161 @@ View Details
 
 </section>
 
-<!-- ================= PROMOTIONAL BANNER ================= -->
+<!-- ================= FEATURED BRANDS ================= -->
 
-<section class="py-5 bg-primary text-white">
+<section class="container py-5">
 
-<div class="container">
+<h2 class="text-center mb-5">
 
-<div class="row align-items-center">
-
-<div class="col-lg-6">
-
-<h2 class="fw-bold">
-
-Summer Tech Sale
+Trusted Brands
 
 </h2>
 
-<p class="lead">
+<div class="row text-center g-4">
 
-Save up to <strong>40% OFF</strong> on selected electronic products.
+<div class="col-6 col-md-2">
+<h4>Apple</h4>
+</div>
 
-Upgrade your technology today with exclusive online offers.
+<div class="col-6 col-md-2">
+<h4>Samsung</h4>
+</div>
 
-</p>
+<div class="col-6 col-md-2">
+<h4>Dell</h4>
+</div>
 
-<a href="#products" class="btn btn-light btn-lg">
+<div class="col-6 col-md-2">
+<h4>Sony</h4>
+</div>
 
-Shop Now
+<div class="col-6 col-md-2">
+<h4>Lenovo</h4>
+</div>
 
-</a>
+<div class="col-6 col-md-2">
+<h4>ASUS</h4>
+</div>
 
 </div>
 
-<div class="col-lg-6">
+</section>
+
+<!-- ================= BEST SELLERS ================= -->
+
+<section class="container py-5">
+
+<h2 class="text-center mb-5">
+
+🔥 Best Sellers
+
+</h2>
+
+<div class="row">
+
+<div class="col-lg-4">
+
+<div class="card shadow">
 
 <img
 
-src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80"
+src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=80"
 
-class="img-fluid rounded shadow"
+class="card-img-top">
 
-alt="Technology">
+<div class="card-body">
+
+<h4>
+
+iPhone Pro
+
+</h4>
+
+<p>
+
+Experience premium performance with one of our top-rated smartphones.
+
+</p>
+
+<button class="btn btn-primary">
+
+Shop Now
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-4">
+
+<div class="card shadow">
+
+<img
+
+src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=80"
+
+class="card-img-top">
+
+<div class="card-body">
+
+<h4>
+
+Dell XPS
+
+</h4>
+
+<p>
+
+A powerful laptop trusted by professionals and students.
+
+</p>
+
+<button class="btn btn-primary">
+
+Shop Now
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-4">
+
+<div class="card shadow">
+
+<img
+
+src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80"
+
+class="card-img-top">
+
+<div class="card-body">
+
+<h4>
+
+Sony Headphones
+
+</h4>
+
+<p>
+
+Immerse yourself in crystal-clear sound with premium noise cancellation.
+
+</p>
+
+<button class="btn btn-primary">
+
+Shop Now
+
+</button>
+
+</div>
 
 </div>
 
@@ -614,71 +990,145 @@ alt="Technology">
 
 <!-- ================= STORE STATISTICS ================= -->
 
-<section class="container py-5">
+<section class="py-5 bg-primary text-white">
+
+<div class="container">
 
 <div class="row text-center">
 
 <div class="col-md-3">
 
-<h1 class="display-5 text-primary">
+<i class="bi bi-box-seam display-4"></i>
 
-500+
+<h2 class="mt-3">500+</h2>
 
-</h1>
-
-<p>
-
-Products
-
-</p>
+<p>Premium Products</p>
 
 </div>
 
 <div class="col-md-3">
 
-<h1 class="display-5 text-primary">
+<i class="bi bi-people-fill display-4"></i>
 
-2,000+
+<h2 class="mt-3">2,000+</h2>
 
-</h1>
-
-<p>
-
-Satisfied Customers
-
-</p>
+<p>Happy Customers</p>
 
 </div>
 
 <div class="col-md-3">
 
-<h1 class="display-5 text-primary">
+<i class="bi bi-star-fill display-4"></i>
 
-98%
+<h2 class="mt-3">98%</h2>
 
-</h1>
-
-<p>
-
-Customer Satisfaction
-
-</p>
+<p>Positive Reviews</p>
 
 </div>
 
 <div class="col-md-3">
 
-<h1 class="display-5 text-primary">
+<i class="bi bi-headset display-4"></i>
 
-24/7
+<h2 class="mt-3">24/7</h2>
 
-</h1>
+<p>Customer Support</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= WHY CUSTOMERS LOVE US ================= -->
+
+<section class="container py-5">
+
+<h2 class="text-center mb-5">
+
+Why Customers Love Shopping With Us
+
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+
+<div class="card feature-card shadow">
+
+<div class="card-body">
+
+<i class="bi bi-truck display-4 text-primary"></i>
+
+<h4 class="mt-3">
+
+Fast Delivery
+
+</h4>
 
 <p>
 
-Customer Support
+Fast Australia-wide delivery with reliable courier partners.
 
 </p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card feature-card shadow">
+
+<div class="card-body">
+
+<i class="bi bi-shield-lock display-4 text-primary"></i>
+
+<h4 class="mt-3">
+
+Secure Shopping
+
+</h4>
+
+<p>
+
+SSL encrypted checkout and secure payment processing.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card feature-card shadow">
+
+<div class="card-body">
+
+<i class="bi bi-arrow-repeat display-4 text-primary"></i>
+
+<h4 class="mt-3">
+
+Easy Returns
+
+</h4>
+
+<p>
+
+30-day return policy with hassle-free exchanges.
+
+</p>
+
+</div>
+
+</div>
 
 </div>
 
@@ -698,135 +1148,131 @@ Customer Reviews
 
 </h2>
 
-<div class="row">
+<div class="row g-4">
 
-<div class="col-md-4">
-
-<div class="card shadow h-100">
-
-<div class="card-body">
-
-<h5>
-
-⭐⭐⭐⭐⭐
-
-</h5>
-
-<p>
-
-"The website is easy to use and the products are excellent quality. Highly recommended."
-
-</p>
-
-<h6>
-
-— Sarah Williams
-
-</h6>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-md-4">
+<div class="col-lg-4">
 
 <div class="card shadow h-100">
 
-<div class="card-body">
+<div class="card-body text-center">
+
+<img
+
+src="https://randomuser.me/api/portraits/women/44.jpg"
+
+class="rounded-circle mb-3"
+
+width="90"
+
+height="90"
+
+alt="Customer">
 
 <h5>
 
-⭐⭐⭐⭐⭐
+Sarah Williams
 
 </h5>
 
-<p>
+<p class="text-warning">
 
-"I found exactly what I needed. Fast delivery and outstanding customer service."
+★★★★★
 
 </p>
 
-<h6>
+<p>
 
-— Michael Brown
+"The ordering process was simple and my laptop arrived within two days. Excellent service!"
 
-</h6>
-
-</div>
+</p>
 
 </div>
 
 </div>
 
-<div class="col-md-4">
+</div>
+
+<div class="col-lg-4">
 
 <div class="card shadow h-100">
 
-<div class="card-body">
+<div class="card-body text-center">
+
+<img
+
+src="https://randomuser.me/api/portraits/men/32.jpg"
+
+class="rounded-circle mb-3"
+
+width="90"
+
+height="90"
+
+alt="Customer">
 
 <h5>
 
-⭐⭐⭐⭐⭐
+Michael Brown
 
 </h5>
 
+<p class="text-warning">
+
+★★★★★
+
+</p>
+
 <p>
 
-"A clean, modern website that works perfectly on my phone and laptop."
-
-</p>
-
-<h6>
-
-— Emily Johnson
-
-</h6>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ================= CALL TO ACTION ================= -->
-
-<section class="py-5">
-
-<div class="container">
-
-<div class="row align-items-center">
-
-<div class="col-lg-8">
-
-<h2 class="fw-bold">
-
-Ready to Upgrade Your Technology?
-
-</h2>
-
-<p class="lead">
-
-Browse our latest electronic products and enjoy a secure online shopping experience with premium customer service.
+"Fantastic customer support and competitive pricing. I'll definitely shop here again."
 
 </p>
 
 </div>
 
-<div class="col-lg-4 text-lg-end">
+</div>
 
-<a href="#products" class="btn btn-primary btn-lg">
+</div>
 
-Shop Now
+<div class="col-lg-4">
 
-</a>
+<div class="card shadow h-100">
+
+<div class="card-body text-center">
+
+<img
+
+src="https://randomuser.me/api/portraits/women/68.jpg"
+
+class="rounded-circle mb-3"
+
+width="90"
+
+height="90"
+
+alt="Customer">
+
+<h5>
+
+Emily Johnson
+
+</h5>
+
+<p class="text-warning">
+
+★★★★★
+
+</p>
+
+<p>
+
+"The website looks amazing on mobile and desktop. Easy to browse and purchase."
+
+</p>
+
+</div>
+
+</div>
 
 </div>
 
@@ -838,23 +1284,23 @@ Shop Now
 
 <!-- ================= NEWSLETTER ================= -->
 
-<section class="bg-dark text-white py-5">
+<section class="newsletter py-5">
 
 <div class="container text-center">
 
 <h2>
 
-Subscribe to Our Newsletter
+Subscribe & Receive Exclusive Deals
 
 </h2>
 
 <p>
 
-Receive exclusive offers, new arrivals and technology news directly in your inbox.
+Join thousands of customers receiving weekly technology offers.
 
 </p>
 
-<form class="row justify-content-center mt-4">
+<div class="row justify-content-center mt-4">
 
 <div class="col-md-6">
 
@@ -862,19 +1308,15 @@ Receive exclusive offers, new arrivals and technology news directly in your inbo
 
 type="email"
 
-class="form-control form-control-lg"
+class="form-control"
 
 placeholder="Enter your email address">
 
 </div>
 
-<div class="col-md-2 mt-3 mt-md-0">
+<div class="col-md-2">
 
-<button
-
-class="btn btn-warning btn-lg w-100"
-
-type="button">
+<button class="btn btn-warning w-100">
 
 Subscribe
 
@@ -882,7 +1324,7 @@ Subscribe
 
 </div>
 
-</form>
+</div>
 
 </div>
 
@@ -890,7 +1332,7 @@ Subscribe
 
 <!-- ================= FOOTER ================= -->
 
-<footer class="bg-black text-white pt-5 pb-3">
+<footer class="bg-dark text-white pt-5">
 
 <div class="container">
 
@@ -900,15 +1342,27 @@ Subscribe
 
 <h4>
 
-Secure Retail
+🛒 Secure Retail
 
 </h4>
 
 <p>
 
-Providing high-quality electronic products with a secure and modern online shopping experience.
+Premium electronics at affordable prices with secure shopping and exceptional customer service.
 
 </p>
+
+<div class="mt-3">
+
+<i class="bi bi-facebook fs-4 me-3"></i>
+
+<i class="bi bi-instagram fs-4 me-3"></i>
+
+<i class="bi bi-twitter-x fs-4 me-3"></i>
+
+<i class="bi bi-linkedin fs-4"></i>
+
+</div>
 
 </div>
 
@@ -922,45 +1376,13 @@ Quick Links
 
 <ul class="list-unstyled">
 
-<li>
+<li><a href="index.html">Home</a></li>
 
-<a href="index.html" class="text-white text-decoration-none">
+<li><a href="#products">Products</a></li>
 
-Home
+<li><a href="about.html">About</a></li>
 
-</a>
-
-</li>
-
-<li>
-
-<a href="#products" class="text-white text-decoration-none">
-
-Products
-
-</a>
-
-</li>
-
-<li>
-
-<a href="about.html" class="text-white text-decoration-none">
-
-About
-
-</a>
-
-</li>
-
-<li>
-
-<a href="contact.html" class="text-white text-decoration-none">
-
-Contact
-
-</a>
-
-</li>
+<li><a href="contact.html">Contact</a></li>
 
 </ul>
 
@@ -976,29 +1398,13 @@ Customer Service
 
 <ul class="list-unstyled">
 
-<li>
+<li>✔️ Free Shipping</li>
 
-Free Shipping
+<li>✔️ Secure Payments</li>
 
-</li>
+<li>✔️ 30-Day Returns</li>
 
-<li>
-
-30-Day Returns
-
-</li>
-
-<li>
-
-Secure Payment
-
-</li>
-
-<li>
-
-24/7 Support
-
-</li>
+<li>✔️ 24/7 Support</li>
 
 </ul>
 
@@ -1026,7 +1432,13 @@ Contact Us
 
 <p>
 
-✉ support@secureretail.com
+✉️ support@secureretail.com
+
+</p>
+
+<p>
+
+💳 Visa • Mastercard • PayPal
 
 </p>
 
@@ -1034,29 +1446,15 @@ Contact Us
 
 </div>
 
-<hr class="border-secondary">
+<hr>
 
-<div class="row">
+<div class="text-center">
 
-<div class="col-md-6">
+<p>
 
-<p class="mb-0">
-
-© 2026 Secure Retail Product Catalogue System
+© 2026 Secure Retail Product Catalogue System | Capstone Project – Sprint 3
 
 </p>
-
-</div>
-
-<div class="col-md-6 text-md-end">
-
-<span class="me-3">📘 Facebook</span>
-
-<span class="me-3">📷 Instagram</span>
-
-<span>💼 LinkedIn</span>
-
-</div>
 
 </div>
 
