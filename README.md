@@ -1,9 +1,4 @@
 # Secure Retail Product Catalogue System
-
-## Capstone Project – Sprint 3 Frontend Development
-
----
-
 ## Project Overview
 
 The Secure Retail Product Catalogue System is a responsive frontend web application developed as part of the Capstone Project during Sprint 3.
