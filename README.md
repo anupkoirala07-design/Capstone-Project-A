@@ -1,4 +1,5 @@
 # Secure Retail Product Catalogue System
+
 ## Project Overview
 
 The Secure Retail Product Catalogue System is a responsive frontend web application developed as part of the Capstone Project during Sprint 3.
@@ -34,12 +35,13 @@ The website allows customers to browse featured electronic products, learn about
 
 ### About Page
 
-- Project description
-- Problem statement
-- MVP features
-- Technologies used
-- Team information
-- Sprint progress
+- Page header banner consistent with the site-wide design
+- "Who We Are" brand story with supporting image
+- Mission, Vision and Values cards
+- "Why Shop With Us" feature highlights
+- Meet the Team section
+- Store statistics (products, brands, customers, secure shopping)
+- Call-to-action banner linking back to Products
 
 ### Contact Page
 
@@ -49,6 +51,8 @@ The website allows customers to browse featured electronic products, learn about
 - Subject field
 - Message area
 - Bootstrap form validation
+- Contact information
+- Google Maps location
 
 ---
 
@@ -61,7 +65,6 @@ The website allows customers to browse featured electronic products, learn about
 - GitHub
 - Visual Studio Code
 
----
 
 # Responsive Design
 
@@ -83,6 +86,7 @@ Navigation is available on every page.
 - About
 - Contact
 
+
 # Future Improvements
 
 Possible future enhancements include:
@@ -95,6 +99,8 @@ Possible future enhancements include:
 - Payment gateway
 - Admin dashboard
 - Customer accounts
+
+
 
 
 # License
