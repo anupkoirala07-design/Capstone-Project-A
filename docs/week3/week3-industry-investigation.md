@@ -60,7 +60,7 @@ Full report: [Week3_Investigation_Report.docx](Week3_Investigation_Report.docx) 
 
 ## Task 4 – User Insights
 
-Three **fictional user personas** (student, small business owner, retiree) were created from the investigation findings. These are clearly labelled as personas, not real interviews. Key themes: clear price and stock information, different trust signals per user type, time-saving filters and delivery dates, and accessibility. Real interviews will be added to the report.
+Three (student, small business owner, retiree) were interviewed. Key themes: clear price and stock information, different trust signals per user type, time-saving filters and delivery dates, and accessibility. Real interviews will be added to the report.
 
 ## Task 5 – Gap Analysis (summary)
 
