@@ -233,4 +233,4 @@ Our Capstone A MVP shows **name, image, price and category**. Real retailers rel
 - [ ] Complete real user interviews and add them to the report
 - [ ] Update the Week 2 Data Inventory with the **(New)** data items
 - [ ] Begin database design for Products, Variants, Reviews, Stock, Users and Orders
-- [ ] Refine Jira items SR-21 to SR-27 into sprint-ready tasks
+
