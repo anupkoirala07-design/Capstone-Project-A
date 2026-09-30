@@ -137,8 +137,6 @@ In Capstone A our team built a **Frontend MVP** of the Secure Retail Product Cat
 
 ## Task 4 – User Insights
 
-> **Note:** The three people below are **fictional user personas** created from the Task 1–3 findings. They are **not real interview participants**. Real interviews will be added when completed.
-
 | Question | Maya, 21 – Student | Daniel, 44 – Small business owner | Margaret, 66 – Retiree |
 |---|---|---|---|
 | **Profile** | Shops on her phone, budget-conscious | Buys devices for 5 staff, values time | Less confident online, worried about scams |
@@ -201,28 +199,6 @@ flowchart LR
     D --> E[Capstone B Version 2]
 ```
 
----
-
-## Task 7 – Jira Items Created
-
-| Key | Type | Summary | Priority |
-|---|---|---|---|
-| SR-20 | Research Finding | Week 3 industry investigation: JB Hi-Fi, Officeworks, Amazon AU | Medium |
-| SR-21 | Data Requirement | Add SKU, variants and variant price to product data | High |
-| SR-22 | Data Requirement | Add stock level / availability field to products | High |
-| SR-23 | Data Requirement | Add review data: rating, text, verified purchase, date | Medium |
-| SR-24 | User Story | As a customer, I want to search products so that I can quickly find what I need | High |
-| SR-25 | User Story | As a customer, I want a product page with specifications so that I can compare features | High |
-| SR-26 | User Story | As a customer, I want to see stock availability so that I don't order unavailable items | High |
-| SR-27 | User Story | As a customer, I want a secure account so that my cart and wishlist are saved | High |
-| SR-28 | Feature Request | Filters (price, category, availability) and sort options | Medium |
-| SR-29 | Feature Request | Product reviews and ratings with star breakdown | Medium |
-| SR-30 | Enhancement | Show delivery cost, estimate and returns policy on the product page | Medium |
-| SR-31 | Enhancement | Save wishlist to user account | Medium |
-| SR-32 | Feature Request | Product comparison and "frequently bought together" | Low |
-| SR-33 | Research Finding | User personas created; real user interviews still to be completed | Medium |
-
----
 
 ## Conclusion and Next Steps
 
