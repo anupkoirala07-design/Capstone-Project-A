@@ -113,6 +113,58 @@ flowchart TD
 | 14 | Customer Personal Data | Unauthorised access | Privacy breach, loss of trust | Role-based access, HTTPS, secure storage |
 
 ---
+## 5. Planning for Future Development
+
+### What information should be stored permanently?
+- Product records (ID, name, description, category, image)
+- User accounts (name, email, hashed password, role)
+- Order history (order number, items, totals, dates)
+- Customer enquiries
+- Approved testimonials
+- Business contact details
+
+### What information changes frequently?
+- Stock levels
+- Prices and promotional prices
+- Featured products
+- Cart and wishlist contents (temporary / session data)
+- Cart totals
+- Order status (Pending → Paid → Shipped → Delivered)
+- Store statistics
+
+### What information should be restricted to administrators?
+- Creating/editing/deleting products, prices and stock
+- Customer personal data and enquiry messages
+- Order and payment records
+- User accounts and roles
+- Testimonial approval
+- Sales and revenue reports
+
+### What information should be included in future reports?
+- Total sales and revenue (daily / weekly / monthly)
+- Best-selling products and categories
+- Low-stock and out-of-stock products
+- New customers and active users
+- Number of enquiries and response times
+- Most wishlisted products
+
+### What information might be required in Capstone B Version 2?
+- User registration and login
+- Full cart and checkout (order number, items, quantities, totals)
+- Payment status (via payment gateway – no card numbers stored)
+- Shipping address, tracking number, delivery status, shipping date
+- Product search and filter data
+- Admin dashboard data (total orders, active users, revenue)
+- Audit logs (who changed prices/stock and when)
+
+---
+
+## 6. Review Log
+
+| Date | Reviewer | Comment | Action Taken |
+|---|---|---|---|
+| | | | |
+| | | | |
 
 
 
