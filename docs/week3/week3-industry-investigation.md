@@ -82,6 +82,3 @@ Three **fictional user personas** (student, small business owner, retiree) were 
 **Should Have:** filters & sorting · product reviews & ratings · delivery & returns info · wishlist saved to account · order tracking
 **Nice To Have:** product comparison · click & collect / store stock · recommendations · notify when back in stock · live chat / AI assistant · Buy Now
 
-## Task 7 – Jira Items Created
-
-SR-20 to SR-33 (Research Findings, Data Requirements, User Stories, Feature Requests, Enhancements). See the full report for the list.
