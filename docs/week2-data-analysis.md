@@ -93,6 +93,26 @@ flowchart TD
 **Stages:** Input → Processing (validation / calculation) → Storage (database) → Display (pages, dashboard, reports)
 
 ---
+## 4. Data Quality & Risk Analysis
+
+| # | Data Item | Risk | Business Impact | Prevention Strategy |
+|---|---|---|---|---|
+| 1 | Product Price | Incorrect value entered | Customers overcharged/undercharged, financial loss | Numeric validation, min/max range, admin review |
+| 2 | Discount Price | Discount higher than original price or never expires | Products sold at a loss | Rule: discount < price; promotion start/end dates |
+| 3 | Stock Level | Not updated after a sale | Out-of-stock items sold, cancelled orders | Automatic stock reduction on order; low-stock alerts |
+| 4 | Product Category | Wrong category assigned | Customers can't find products, lost sales | Fixed dropdown list of categories |
+| 5 | Product Image | Missing or broken image | Unprofessional appearance, loss of trust | Required field, placeholder fallback, file type/size checks |
+| 6 | Product ID | Duplicate IDs | Wrong product added to cart/order | Auto-generated unique primary key |
+| 7 | Cart Quantity | Zero, negative or unrealistic amount | Incorrect totals, order errors | Whole numbers, min 1, max limited by stock |
+| 8 | Cart Total | Manipulated on client side | Customer pays wrong amount (security risk) | Recalculate total on server before checkout |
+| 9 | Customer Email | Invalid format or typo | Business cannot reply, lost customer | Email format validation; confirmation email |
+| 10 | Enquiry Message | Empty, spam or malicious script (XSS) | Wasted staff time, security attack | Required field, length limit, input sanitisation, CAPTCHA |
+| 11 | Phone Number | Letters or wrong length | Staff cannot call customer back | Pattern validation (digits, Australian format) |
+| 12 | User Password *(Capstone B)* | Weak or stored as plain text | Account hacking, data breach, Privacy Act penalties | Strong password rules, hashing (bcrypt) |
+| 13 | Testimonial Text | Fake or unapproved reviews shown | Misleading customers, reputation damage | Admin approval before display |
+| 14 | Customer Personal Data | Unauthorised access | Privacy breach, loss of trust | Role-based access, HTTPS, secure storage |
+
+---
 
 
 
