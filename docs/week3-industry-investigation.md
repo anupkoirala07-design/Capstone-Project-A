@@ -21,7 +21,6 @@
 - [Task 4 – User Insights](#task-4--user-insights)
 - [Task 5 – Data Gap Analysis](#task-5--data-gap-analysis)
 - [Task 6 – Product Improvement Workshop](#task-6--product-improvement-workshop)
-- [Task 7 – Jira Items Created](#task-7--jira-items-created)
 - [Conclusion and Next Steps](#conclusion-and-next-steps)
 
 ---
