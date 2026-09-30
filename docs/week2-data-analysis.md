@@ -62,4 +62,37 @@ Data items identified across the Home, About and Contact pages, plus items plann
 
 ---
 
+## 3. Data Flow Diagrams
+
+### Flow A – Product Browsing & Cart (Purchase Journey)
+
+```mermaid
+flowchart TD
+    A[Administrator] -->|Adds product name, price, category, image, stock| B[(Product Database)]
+    B --> C[Home Page - Product Catalogue]
+    C --> D[Customer browses by Category]
+    D --> E[Add to Cart / Wishlist]
+    E --> F[Cart Total calculated]
+    F --> G[Order Processing - Capstone B]
+    G --> H[(Order Database - stock reduced)]
+    H --> I[Order Tracking / Admin Dashboard]
+```
+
+### Flow B – Contact Enquiry (Current Implementation)
+
+```mermaid
+flowchart TD
+    J[Customer] -->|Name, Email, Phone, Subject, Message| K[Contact Form]
+    K --> L{Client-side Validation}
+    L -->|Invalid - error shown| K
+    L -->|Valid| M[Enquiry Submitted + Date/Time]
+    M --> N[(Enquiry Database - Capstone B)]
+    N --> O[Administrator reviews and replies]
+```
+
+**Stages:** Input → Processing (validation / calculation) → Storage (database) → Display (pages, dashboard, reports)
+
+---
+
+
 
