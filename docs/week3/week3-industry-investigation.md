@@ -60,7 +60,7 @@ Full report: [Week3_Investigation_Report.docx](Week3_Investigation_Report.docx) 
 
 ## Task 4 – User Insights
 
-Three (student, small business owner, retiree) were interviewed. Key themes: clear price and stock information, different trust signals per user type, time-saving filters and delivery dates, and accessibility. Real interviews will be added to the report.
+Three **fictional user personas** (student, small business owner, retiree) were created from the investigation findings. These are clearly labelled as personas, not real interviews. Key themes: clear price and stock information, different trust signals per user type, time-saving filters and delivery dates, and accessibility. Real interviews will be added to the report.
 
 ## Task 5 – Gap Analysis (summary)
 
@@ -78,23 +78,11 @@ Three (student, small business owner, retiree) were interviewed. Key themes: cle
 
 ## Task 6 – Version 2 Priorities (MoSCoW)
 
-**Must Have:** 
-.product search
-· product detail page with specs & SKU 
-· stock level · secure user accounts 
-· functional cart 
-· variant pricing
-**Should Have:** 
-.filters & sorting 
-· product reviews & ratings 
-· delivery & returns info
-· wishlist saved to account
-· order tracking
-**Nice To Have:** 
-.product comparison 
-· click & collect / store stock
-· recommendations 
-· notify when back in stock 
-· live chat / AI assistant 
-· Buy Now
+**Must Have:** product search · product detail page with specs & SKU · stock level · secure user accounts · functional cart · variant pricing
+**Should Have:** filters & sorting · product reviews & ratings · delivery & returns info · wishlist saved to account · order tracking
+**Nice To Have:** product comparison · click & collect / store stock · recommendations · notify when back in stock · live chat / AI assistant · Buy Now
+
+## Task 7 – Jira Items Created
+
+SR-20 to SR-33 (Research Findings, Data Requirements, User Stories, Feature Requests, Enhancements). See the full report for the list.
 
