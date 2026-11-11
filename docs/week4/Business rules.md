@@ -65,6 +65,7 @@ The frontend may repeat these checks for a better user experience, but the backe
 | BR-29 | An order can have several payment attempts but only one successful payment. The order becomes Paid when a successful payment equals the order total. | PAYMENTS, ORDERS | API |
 | BR-30 | Card numbers and security codes are never stored. Only the payment gateway's transaction reference is saved. | PAYMENTS | API |
 | BR-31 | The quantity of a variant in one order cannot exceed its purchase limit (e.g. "Limit 2 per customer"). | ORDER_ITEMS, PRODUCT_VARIANTS | API |
+| BR-39 | Delivery costs $9.95, or is free when the order subtotal is $1,000 or more. Click & Collect is always free (see BR-25). The delivery cost is worked out by the server at checkout. | ORDERS | API |
 
 ## Reviews
 
