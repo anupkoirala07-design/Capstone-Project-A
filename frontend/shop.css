@@ -257,3 +257,26 @@ nav form .btn{
 .stat-tile[role="button"]{
     cursor:pointer;
 }
+
+/* The navbar has a lot in it (links, search, Cart, account and Log out),
+   so on desktop screens the gaps and the search box are made a little smaller.
+   Between 992px and 1199px (e.g. a 1024px laptop window) the search box
+   is hidden so the Cart and Log in buttons still fit. */
+@media (min-width:992px){
+    .navbar .nav-link{
+        margin-left:6px;
+    }
+    nav form.d-flex input{
+        min-width:0;
+        width:150px;
+    }
+    #navAccount .btn{
+        padding:6px 12px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199.98px){
+    nav form.d-flex{
+        display:none !important;
+    }
+}
