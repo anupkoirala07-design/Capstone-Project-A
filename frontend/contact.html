@@ -13,6 +13,8 @@
 
 <link rel="stylesheet" href="style.css">
 
+<link rel="stylesheet" href="shop.css">
+
 <link rel="stylesheet"
 href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
@@ -102,13 +104,8 @@ placeholder="Search...">
 
 </form>
 
-<a href="#" class="btn btn-outline-light">
-
-<i class="bi bi-cart3"></i>
-
-Cart
-
-</a>
+<!-- Cart, login and account links are added by js/shop.js -->
+<div id="navAccount" class="d-flex align-items-center gap-2"></div>
 
 </div>
 
@@ -434,3 +431,29 @@ Twitter
 
 </section>
 
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="bg-dark text-white py-4">
+<div class="container text-center">
+<p class="mb-2 small">
+<a href="login.html" class="text-white-50 me-3">Customer Login</a>
+<a href="cart.html" class="text-white-50 me-3">My Cart</a>
+<a href="checkout.html" class="text-white-50 me-3">Checkout</a>
+<a href="orders.html" class="text-white-50 me-3">My Orders</a>
+<a href="admin.html" class="text-white-50">Admin</a>
+</p>
+<p class="mb-0 small text-white-50">© 2026 Secure Retail Product Catalogue System | Capstone Project B</p>
+</div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="js/shop.js"></script>
+
+<script src="js/contact.js"></script>
+
+</body>
+
+</html>
